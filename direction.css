@@ -1,0 +1,20 @@
+:root{
+    ---blue-violet: #882ff6;
+    ---picton-blue: #37b6f6;
+    ---ryb-orange: #ff7000;
+    ---light-purple: #d09cfa;
+    ---dark-purple: #a555ec;
+    ---teal : #709fb0;
+    ---purple: #540375;
+    ---pink: #ea047e;
+    ---orange: #ff6d28;
+    ---yellow: #ffbf00;
+    ---red: #cd104d;
+    ---gold: #fd841f;
+    ---dark: #000000;
+}
+.directions-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

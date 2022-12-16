@@ -1,0 +1,120 @@
+:root{
+    ---blue-violet: #882ff6;
+    ---picton-blue: #37b6f6;
+    ---ryb-orange: #ff7000;
+    ---light-purple: #d09cfa;
+    ---dark-purple: #a555ec;
+    ---teal : #709fb0;
+    ---purple: #540375;
+    ---pink: #ea047e;
+    ---orange: #ff6d28;
+    ---yellow: #ffbf00;
+    ---red: #cd104d;
+    ---gold: #fd841f;
+    ---dark: #000000;
+}
+.admission-title{
+    min-height: 20vh;
+    height: auto;
+    background: #d09cfa;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
+    font-size: 170%;
+    color: #fff;
+    width: 100%;
+}
+.admission-info{
+    padding-left: 2rem;         
+}
+.admission-quick-links{
+    max-width: 300px;
+    background-color: #d09cfa;
+    padding: 2rem;  
+    min-height: 250px; 
+    margin-right: .7rem; 
+}
+.admission-quick-links h3{
+    margin-bottom: 2rem;
+    font-size: 18px;
+    color: #882ff6;
+}
+.admission-quick-links ul{
+    list-style: none;
+}
+.admission-quick-links a{
+    text-decoration: none;
+    color: #fff;
+}
+.admission-quick-links li{
+    padding-bottom: 1rem;
+    font-size: 10px;
+}
+.admission-details{
+    margin-top: 3rem;
+    color: #fff;
+    max-width: 800px;    
+}
+.admission-details h2{
+    color: #a555ec;
+    margin-bottom: 2rem;
+}
+.frequently-asked-quiz{
+    margin-top: 2rem;
+    color: #fff;
+    padding: 2rem;
+}
+.frequently-asked-quiz-title{
+    color: #a555ec;
+    font-size: 140%;
+}
+.questions{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question{    
+    max-width: 320px;
+    min-height: 250px;
+    height: auto;
+    background-color: #a555ec;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+}
+.questions h3{
+    margin-bottom: 1rem;
+    font-size: 180%;
+}
+.questions p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+@media (min-width:650px) {
+    .admission-info{
+        display: flex;
+        justify-content: space-around; 
+        align-items: flex-start;              
+    }
+    .admission-quick-links{
+        font-size: 30px;
+    }
+    .admission-quick-links a{
+        font-size: 35;
+    }
+    .admission-details{
+        margin-top: 0;
+    }
+    .questions{
+        display: flex;
+        flex-direction: row;  
+        justify-content: space-around;
+    }
+    .question{
+        margin-right: .3rem;
+    }
+}

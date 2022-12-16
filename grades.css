@@ -1,0 +1,29 @@
+:root{
+    ---blue-violet: #882ff6;
+    ---picton-blue: #37b6f6;
+    ---ryb-orange: #ff7000;
+    ---light-purple: #d09cfa;
+    ---dark-purple: #a555ec;
+    ---teal : #709fb0;
+    ---purple: #540375;
+    ---pink: #ea047e;
+    ---orange: #ff6d28;
+    ---yellow: #ffbf00;
+    ---red: #cd104d;
+    ---gold: #fd841f;
+    ---dark: #000000;
+}
+
+.navbar{
+    border-bottom: 1px solid #a555ec ;
+}
+.coming-soon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 80vh;
+}
+.coming-soon h1{
+    font-size: 40px;
+}
