@@ -29,8 +29,8 @@ var x = setInterval (function() {
 function sendEmail(){
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "coderflame3@gmail.com",
-        Password : "47478BDF7049F0520C462AF5C6484C3A6004",
+        Username : "",  //use your gmail here
+        Password : "",  //place your password here
         To : 'travinskielewinskie@gmail.com',
         From : document.getElementById("email").value,
         Subject : "New contact form inquiry",
