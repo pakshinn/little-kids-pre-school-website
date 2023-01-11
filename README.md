@@ -1,5 +1,7 @@
 # little-kids-pre-school-website
-
+<br>
+feel free to contribute on this project
+<br>
 # TECH STACK USED
 <br>
 
