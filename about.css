@@ -13,41 +13,12 @@
     ---gold: #fd841f;
     ---dark: #000000;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.about-kids-nursery{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    line-height: 1.5;
+
+.about-kids-nursery{  
+    
     min-height: 30vh;
     background-color: #a555ec;
-    text-align: center;
-    width: 100%;
-    padding: .4rem;
-}
-.about-kids-nursery h2{
-    margin-bottom: 1rem;
-}
-.built-with-greatness{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    line-height: 1.5;
-    height: auto;
-    background-color: #000000;
-    text-align: center;
-    width: 100%;
-    padding: .4rem;
-    max-width: 950px;
+        
 }
 .what-we-do{
     display: flex;
