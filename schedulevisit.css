@@ -16,57 +16,9 @@
 body{
     margin: 0;
 }
-.little-people-image{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .navbar{
     border-top: 1px solid #d09cfa;
     border-bottom: 1px solid #d09cfa;
-}
-.visit-form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    min-height: 100vh;   
-}
-.visit-form h1{
-    color: #882ff6;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 40px;
-}
-
-#schedule-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 20rem;
-    background-color: var(---dark-purple) ;
-    padding: 1rem;
-
-}
-.input-value{
-    height: 4rem;
-    margin-bottom: 1rem;
-    width: 20rem;
-    padding: .2rem; 
-    border: none;   
-}
-.send-btn{
-    width: 10rem;
-    height: 3rem;
-    padding: .4rem;
-    border-radius: .3rem;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    background: linear-gradient(to right, #882ff6 ,#37b6f6),#a555ec;
 }
 
 @media (min-width: 768px) {

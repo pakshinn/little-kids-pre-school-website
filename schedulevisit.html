@@ -14,10 +14,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="little-people-image">
+    <div class="little-people-image flex flex-col justify-center align-middle items-center">
         <img src="images/Little_People-0281611.png" alt="">
     </div>
-</div>
+
 
 <nav class="navbar">        
     <a href="#" class="toggle-button">
@@ -36,13 +36,20 @@
     </div>
 </nav>
 
-    <div class="visit-form">
-        <h1>Schedule A Visit</h1>
+    <div class="flex flex-col justify-center align-middle items-center w-full h-auto">
+        <h1 class="my-6 font-medium text-3xl text-white">Schedule A Visit</h1>
         <form  action="https://formspree.io/f/moqbgrwd"
-        method="POST" id="schedule-form">
-            <input class="input-value" type="text" name="Name" placeholder="Full Name" required>
-            <input class="input-value" type="email" name="Email" placeholder="Email" required>
-            <select class="input-value" name="month">
+        method="POST" class="flex flex-col justify-items-center align-middle items-center p-4">
+
+          <div class="flex flex-col md:flex-row">
+            <div class="flex flex-col md:mr-4">
+              <input class="my-2 w-80 h-16 text-base font-normal rounded py-3 px-3 bg-white bg-clip-padding border border-solid border-violet-300 transition ease-in-out  focus:text-gray-600 focus:bg-white focus:border-violet-600 focus:outline-none" type="text" name="Name" placeholder="Full Name" required>        
+              <input class="my-2 h-16 w-80 text-base font-normal rounded py-3 px-3 bg-white bg-clip-padding border border-solid border-violet-300 transition ease-in-out  focus:text-gray-600 focus:bg-white focus:border-violet-600 focus:outline-none" type="email" name="Email" placeholder="Email" required>
+              <input class="my-2 h-16 w-80 text-base font-normal rounded py-3 px-3 bg-white bg-clip-padding border border-solid border-violet-300 transition ease-in-out  focus:text-gray-600 focus:bg-white focus:border-violet-600 focus:outline-none" type="tel" name="tel" placeholder="Mobile number" required>
+            </div>
+  
+            <div class="flex flex-col">
+              <select class="my-2 h-16 w-80 text-base font-normal rounded py-3 px-3 bg-white bg-clip-padding border border-solid border-violet-300 transition ease-in-out  focus:text-gray-600 focus:bg-white focus:border-violet-600 focus:outline-none" name="month" required>
                 <option>January</option>
                 <option>February</option>
                 <option>March</option>
@@ -56,7 +63,7 @@
                 <option>November</option>
                 <option>December</option>
             </select>
-            <select class="input-value" name="date">
+            <select class="my-2 h-16 w-80 text-base font-normal rounded py-3 px-3 bg-white bg-clip-padding border border-solid border-violet-300 transition ease-in-out  focus:text-gray-600 focus:bg-white focus:border-violet-600 focus:outline-none" name="date">
                 <option>Date 1</option>
                 <option>Date 2</option>
                 <option>Date 3</option>
@@ -89,14 +96,17 @@
                 <option>Date 30</option>
                 <option>Date 31</option>
             </select>
-            <select class="input-value" name="time">
+            <select class="my-2 h-16 w-80 text-base font-normal rounded py-3 px-3 bg-white bg-clip-padding border border-solid border-violet-300 transition ease-in-out  focus:text-gray-600 focus:bg-white focus:border-violet-600 focus:outline-none" name="time">
                 <option>8 - 10 a.m</option>
                 <option>10 - 12 p.m</option>
                 <option>12 - 2 p.m</option>
                 <option>2 - 4 p.m</option>                
             </select>
-            <textarea class="input-value" name="Message" placeholder="Reason for schedule" required></textarea>
-            <button type="submit" class="send-btn">Send</button>
+            </div>
+          </div>        
+                       
+          <textarea class="my-2 h-24 w-80 text-base font-normal rounded py-3 px-3 bg-white bg-clip-padding border border-solid border-violet-300 transition ease-in-out  focus:text-gray-600 focus:bg-white focus:border-violet-600 focus:outline-none md:w-full" name="Message" placeholder="Reason for schedule" required></textarea>            
+          <button type="submit" class=" text-white w-1/2 h-12 my-4 rounded font-bold bg-violet-500 cursor-pointer hover:bg-violet-400">Send</button>
         </form>
     </div>
 
