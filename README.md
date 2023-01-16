@@ -1,7 +1,7 @@
 
 # Little Kids Pre-School Website
 # Description
-This is a website designed for a pre-school that provides information about the school, its programs, and activities to parents and prospective students. It is built using ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white),![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) , and ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E). The website features a clean, modern design, and is fully responsive, making it accessible on all devices.
+This is a website designed for a pre-school that provides information about the school, its programs, and activities to parents and prospective students. It is built using ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)  and ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E). The website features a clean, modern design, and is fully responsive, making it accessible on all devices.
 
 # Features
 1.Information about the school, its programs, and activities.<br>
