@@ -24,7 +24,8 @@
 body{
     overflow-x: hidden;
     background-color: #000000;   
-    font-family: 'Lato', sans-serif;      
+    font-family: 'Lato', sans-serif; 
+   
 }
 .little-people{
     background-color: var(---dark);
@@ -39,6 +40,7 @@ body{
 }
 
 .navbar{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,11 +89,9 @@ body{
     border-top: 1px solid var(---light-purple);
 }
 .main-page{
-    height: 69.7vh;
-    background: linear-gradient(to top, #882ff6, #d09cfa,#540375);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    min-height: 69.7vh;
+    background: linear-gradient(to top, #882ff6, #d09cfa,#540375);    
+    width: 100%;
 }
 .main-page-image-boy{
     display: flex;
@@ -124,7 +124,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var(---light-purple);    
+    background-color: var(---light-purple); 
+    width: 100%;   
 }
 .opening{
     padding-right: 30px;
