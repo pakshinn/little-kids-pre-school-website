@@ -187,6 +187,11 @@ body{
     color: #fff;
 }
 
+#btn-back-to-top {
+    position: fixed;
+    display: none;
+  }
+
 @media (max-width: 909px){   
     .opening{    
         text-align: center;    
@@ -236,23 +241,3 @@ body{
     }  
 }
 
-/* scroll to top */
-#scrolltop {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 20px;
-    font-weight: bolder;    
-    background-color: #773df4;
-    border-color: #773df4;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 30px;
-  }
-  #scrolltop:hover {
-    background-color: #773df4;
-    color: white;
-  }  
