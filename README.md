@@ -24,7 +24,7 @@ This is a website designed for a pre-school that provides information about the 
 5.To contact the school, fill out the contact form on the "Contact Us" page.
 
 # Contribution
-Feel free to clone or download the repository and create pull requests.
+Feel free to clone or download the <a href="https://github.com/lewisushindi/little-kids-pre-school-website"> repository<a/> and <a href="https://github.com/pakshinn/little-kids-pre-school-website/pulls"> create pull requests.<a/> 
 
 
 
