@@ -13,7 +13,7 @@ This is a website designed for a pre-school that provides information about the 
 
 # Installation
 
-1.Clone or download the repository. <br>
+1.Clone or download the <a href="https://github.com/lewisushindi/little-kids-pre-school-website"> repository<a/>. <br>
 2.Open the index.html file in your browser. <br>
 
 # Usage
